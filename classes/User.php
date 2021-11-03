@@ -30,8 +30,6 @@ class User {
 
     public function setCreditCard($_credit_card)
     {
-        $this->credit_card[]= $_credit_card;
+        return $this->credit_card[]= $_credit_card;
     }
-
-  
 }
