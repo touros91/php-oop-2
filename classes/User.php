@@ -23,10 +23,15 @@ class User {
     {
         return $this->address;
     }
+    public function getCreditCard()
+    {
+        return $this->credit_card;
+    }
 
-    public function setInsertCreditCard($_credit_card)
+    public function setCreditCard($_credit_card)
     {
         $this->credit_card[]= $_credit_card;
     }
 
+  
 }
